@@ -1,0 +1,506 @@
+body{
+    margin: 0%;
+ 
+}
+
+nav{
+    background-color: brown;
+    width: 100%;
+
+
+}
+.logo{
+
+    float: left;
+    list-style: none;
+}
+
+.nav li{
+
+    list-style: none;
+
+    float: right;
+
+    margin-right: 20px;
+    margin-top: 35px;
+
+}
+
+
+a{
+ color: white;
+ text-decoration: none;
+ font-size: 20px;
+ font-weight: 800;
+
+}
+.clear{
+    clear: both;
+}
+.main{
+    background-image: url(../imaje/main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 130vh;
+}
+.text h5{
+    
+
+    color:  white;
+    margin-top: 30vh;
+    font-size: 75px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+.text{
+    margin: auto;
+    text-align: center;
+}
+.text p{
+    width: 70%;
+    font-size: 14px;
+    /* font-weight: bolder; */
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+
+
+    color:  white;
+    font-weight: bolder;
+
+
+}
+
+.span-dot{
+    color: #ffde00;
+    font-weight: bolder;
+}
+
+.button{
+
+    
+    text-align: center;
+    
+    margin-top: 2%;
+}
+
+.button button{
+
+    width: 180px;
+    height: 60px;
+    font-size: large;
+    color: white;
+    margin-left: 2%;
+}
+
+.but1{
+    background-color: rgba(0, 0, 0, 0.507);
+    border: 3px solid white;
+
+}
+
+.but1:hover{
+
+  background-color: rgba(0, 0, 0, 0.247);
+  cursor: pointer;
+  transition: 1s;
+}
+
+.but2{
+    background-color:#ffde00;
+    border: 3px solid #ffde00;
+
+}
+
+.but2:hover{
+
+  background-color: blueviolet;
+  border: 3px solid  blueviolet;
+
+  cursor: pointer;
+  transition: 1s;
+}
+
+.section2{
+   background-color: white;
+    
+ height: 75vh;
+    text-align: center;
+
+}
+
+.section2 h2{
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.section2 p{
+    width: 65%;
+    margin: auto ;
+    margin-top: 50px;
+    
+
+}
+
+.section2 img{
+    margin-top: 60px;
+
+    
+}
+
+.section3{
+    
+    background-image: url(../imaje/9.jpg);
+    text-align: center;
+    height: 35vh;
+
+
+}
+
+.section3 h5{
+    font-size: 35px;
+    line-height: 38px;
+    color: #545454;
+    font-weight: 700;
+    
+
+}
+
+.section3 p{
+   color: #8c9597;
+
+}
+
+.section3 div{
+    width: 25%;
+
+    float: left;
+
+    margin-top: 25px;
+    
+}
+.section3 img{
+    width: 100%;
+    height: 300px;
+
+}
+
+.section4{
+    text-align: center;
+    background-image: url(../imaje/10.jpg);
+    background-size: cover;
+    height: 70vh;
+    color: #fff;
+    padding-top: 52px;
+}
+
+.section4 h5{
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+    
+}
+.section4 img{
+
+    border-radius: 50%;
+    margin: auto;
+}
+
+.section4 div{
+
+    background-color: #6a4d8a;
+    font-size: 16px;
+    width: 50%;
+    margin: auto;
+    
+
+
+
+}
+
+.section4 h3{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.section5{
+    text-align: center;
+}
+
+.section5 h5{
+
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+  color:#545454;
+
+}
+.section5 p{
+    color: #8c9597;
+    padding-bottom: 50px;
+}
+
+.section5 div{
+
+    margin-bottom: 85px;
+}
+
+.section6{
+    background-color: #222f36;
+    text-align: center;
+    height: 170vh;
+}
+
+.section6 h5{
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+    padding-top: 55px;
+    color: #fff ;
+}
+.section6 p{
+    color: #8c9597;
+    margin-bottom: 60px;
+
+}
+
+.section6 button{
+
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 60px;
+
+}
+.section6 div{
+
+    width: 30%;
+    height: 60%;
+    background-color: #fff;
+    text-align: center;
+    float: left;
+    margin-left: 3%;
+}
+
+.section6 div img{
+    width: 100%;
+}
+
+.section6 div h5 a{
+
+    color: #5e5e5e;
+    padding: 0 15px;
+}
+
+.section6 div h5  :hover{
+
+    color: #d6ba03;
+    transition: 1s;
+}
+
+.section6 div a p {
+
+    text-align: left;
+    color: #d6ba03;
+}
+
+
+.section6 div a p:hover{
+
+    color: #6a4d8a;
+    transition: 1s;
+}
+
+.Gold{
+    background-image: url(../imaje/front-page-counter.jpg);
+
+    height: 200px;
+}
+.section7 {
+
+    background-image: url(../imaje/9.jpg);
+
+    padding-top: 15px;
+
+    height: 75vh;
+    text-align: center;
+}
+
+.section7 h2{
+    color: #545454;
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.section7 .p{
+    color: #8c9597;
+
+    padding-bottom: 60px;
+
+}
+
+.section7 .pearent{
+
+
+ width:294.328px;
+ height: 207px;
+
+ float: left;
+
+ margin-left: 5%;
+}
+
+.section7 .img img{
+    border-radius: 50%;
+
+    float: left;
+
+}
+
+
+.section7 .Text{
+    text-align: center; 
+    
+
+
+}
+
+.section7 .Text ul{
+
+    list-style: none;
+    color:  rgb(241, 139, 109);
+}
+
+
+.section7 .Text ul li{
+
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.section8{
+height: 100vh;
+text-align: center;
+}
+
+.section8 h5{
+
+    color: #545454;
+    font-size: 35px;
+    line-height: 38px;
+    font-weight: 700;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+
+.section8 div{
+    float: left;
+    margin-left: 100px;
+
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 100px;
+}
+
+.section8 .name{
+    margin-left: 57px;
+    color: #8c9597 ;
+}
+.section8 .email{
+    margin-left: 90px;
+    font-size: 15px;
+     color: #8c9597 ;
+}
+
+.section8 .subject{
+    margin-left: 90px;
+    color: #8c9597 ;
+}
+
+.section8 input{
+    margin-left: 60px;
+    margin-bottom: 20px;
+    margin-top: 6px;
+    border: 1px solid    #8c9597;
+
+}
+
+.section8 .massege{
+
+    margin-left: 57px;
+    width: 640px;
+
+    height: 200px;
+    border: 1px solid    #8c9597;
+
+      
+
+}
+.l_massege{
+    margin-left: 55px;
+    color: #8c9597;
+}
+.send{
+    width: 130px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: large;
+    font-weight: 400;
+    color: #fff;
+}
+
+footer{
+ background-color: #292825;
+ 
+
+
+}
+
+footer div{
+
+    float: left;
+
+    margin-left: 60px;
+}
+
+footer h5{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+footer ul{
+    list-style:none;
+    
+    color: #8c9597;
+}
+footer a{
+   color: #8c9597;
+
+}
+
+footer a:hover{
+    color: #6a4d8a;
+    transition: 1s;
+
+ 
+ }
+
+ .fotter{
+    margin: 0;
+     text-align: center;
+    background-color: #242320;
+    width: 100% !important;
+    font-size: 22px;
+    font-weight: 900;
+    color: #fff;
+ }
+
+ .fotter span{
+    color: #8c9597;
+ }
