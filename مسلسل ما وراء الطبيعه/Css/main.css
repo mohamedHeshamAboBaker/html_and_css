@@ -1,0 +1,115 @@
+
+.head{
+    background-image: url( ../imag/amin.jpg);
+
+    background-size: cover;
+
+    height:100vh;
+
+    text-align: center;
+
+    color: white;
+    background-attachment: fixed;
+}
+
+body{
+    margin: 0;
+}
+
+.head h1{
+
+    text-align: center;
+    margin-top: 400px;
+    font-size: xx-large;
+
+    font-weight: bolder;
+}
+
+.two{
+    text-align: center;
+    margin-top: 100px;
+    height: 79vh;
+
+    font-size: xx-large;
+    font-weight: 800;
+
+
+}
+
+
+.two img{
+    width: 450px;
+    margin-bottom: 10;
+}
+
+.there{
+    background-color: black;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 800;
+    color: white;
+    padding: 50px 0px;
+}
+
+.end{
+    text-align: center;
+
+    font-size: x-large;
+
+    padding: 50px 0px;
+
+}
+
+.end p{
+
+    width: 50%;
+
+    text-align: center !important;
+    margin: auto;
+
+}
+
+.end button{
+
+    width: 150px;
+    height: 30px;
+    font-size:x-large;
+    font-weight: 600;
+}
+
+.input{
+    background-image: url(../imag/amin.jpg);
+
+    height: 100vh;
+    text-align: center;
+
+    color: white;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.maininput{
+    margin-top: 20vh;
+}
+
+.maininput input{
+
+    width: 400px;
+
+}
+
+.maininput label{
+
+    margin-left: 298px;
+}
+
+input:focus{
+
+    color: white;
+
+    background-color: black;
+
+    transform: scale(1.1);
+
+    transition: 1s;
+}
